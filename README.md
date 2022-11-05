@@ -29,7 +29,7 @@ import spi3n
 This folder contains jupyter notebooks and examples of NN pipelines.  
 
 
-- phase_prediction/baseline/
+- phase_prediction/baseline/  
 This is the simpliest baseline example for phase prediction.  
 It contains customizable notebook for training `baseline.ipynb` and `analyse_results.ipynb` to analyse NN outputs and extract critical exponent.  
 

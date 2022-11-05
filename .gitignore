@@ -1,0 +1,16 @@
+__pycache__/
+_store
+.amlignore*
+.ipynb_checkpoints/
+.idea/
+.yaml
+.ipynb
+logs/
+parsed_data/
+.ipynb
+data/
+out/
+test_env_tradeus/
+*.egg-info
+.sh
+

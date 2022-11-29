@@ -12,5 +12,8 @@ data/
 out/
 test_env_tradeus/
 *.egg-info
-.sh
+*.sh
+.eggs/
+*.c
+*.so
 

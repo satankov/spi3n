@@ -36,7 +36,7 @@ It contains customizable notebook for training `baseline.ipynb` and `analyse_res
 
 ### MC/
 This folder contains scripts for data generation.  
-Curently available scripts to generate `ising`, `bw` (Baxter-Wu) data.  
+Curently available scripts to generate `ising`, `bw` (Baxter-Wu), `potts4` (4-state Potts) data.  
 
 To generate data you need:  
 - Set temperature range in file. Example, t_range.txt.  
@@ -44,9 +44,9 @@ To generate data you need:
 ```commandline 
 python3 ising.py 12 t_range.txt 0 499
 ```
-1st arguments is lattice size `L` (in example 12), 2nd is path to file with temperature points `t_path` (in example t_range.txt, separate points using comma), 3rd is index of temperature array `t_idx` (in example 0, it is made to be able to run in parallel), 4th is total amount of images to generate `N_img` (in example 499).  
+1st arguments is lattice size `L` (in example 12), 2nd is path to file with temperature points `t_path` (in example t_range.txt, separate with comma), 3rd is index of temperature array `t_idx` (in example 0, it is made to be able to run in parallel), 4th is total amount of images to generate `N_img` (in example 499).  
 
-The same logic can be applied for both models: Ising and Baxter-Wu.  
+The same logic can be applied for other models.  
 
 
 

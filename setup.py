@@ -15,6 +15,10 @@ exts = [
         name='spi3n.mc.bw.cy',
         sources=["spi3n/mc/bw/cy.pyx"],
         include_dirs=["spi3n/mc/bw"]),
+    Extension(
+        name='spi3n.mc.potts4.cy',
+        sources=["spi3n/mc/potts4/cy.pyx"],
+        include_dirs=["spi3n/mc/potts4"]),
 ]
 
 class build(build_orig):
